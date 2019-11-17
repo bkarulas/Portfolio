@@ -1,76 +1,69 @@
 <!DOCTYPE html>
-<html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <!--Meta tage for mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <!--Bootstrap CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--My CSS-->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+<html>
 
-<!--Body-->
-<body>
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-8">
-          <!--Title, my name-->
-          <h1><mark>Brad Karulas</mark></h1>
-        </div>
-        <div class="col-4">
-          <!--Links-->  
-          <nav>
-            <a href="index.html">About</a> | 
-            <a href="portfolio.html">Portfolio</a> | 
-            <a href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </div>
-    </div>    
-  </header>
-
-  <!--Main Content-->
-  <div class="container">
-    <div class="main">
-      <div class="row">
-        <!--Page Title-->
-        <h1 class="title">Contact</h1>
-      </div>
-      <hr>
-      <!--Contact Form-->
-      <form>
-        <div class="row">
-          Name:<br>
-          <input class="box" type="text">
-        </div>
-        <div class="row">
-          Email:<br>
-          <input class="box" type="text">
-        </div>
-        <div class="row">
-          Message:<br>
-          <input id="message" type="text">
-        </div>
-        <div class="row">
-          <!--Submit Button-->
-          <button>Submit</button>
-        </div>
-      </form>
-    </div>  
-  </div>
-  
-  <!--Footer-->
-  <footer>
-    <div class="row">
-      <div class="col-12">
-        Copyright &copy;
-      <div class="col-12">
-    </div>
-  </footer>
-</body>
+    <!--Document Information-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brad Karulas</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="display-4">Brad Karulas</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="lead">Full Stack Developer</p>
+                            </div>
+                            <div class="col-4 icons">
+                                <a href="https://github.com/bkarulas" target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a href="https://www.linkedin.com/in/brad-karulas-78992a19/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <div class="container main">
+            <h1>Contact</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <h5>Address:</h5>
+                        <h5>Email:</h5>
+                        <h5>Phone:</h5>
+                    </div>
+                    <div class="col-8">
+                        <h5>1008 Warden Ave, Toronto, Ontario, Canada</h5>
+                        <h5>bkarulas@outlook.com</h5>
+                        <h5>(416) 887-3545</h5>
+                    </div>
+                </div>
+        </div>   
+        <footer>
+            Copyright &copy;
+        </footer>
+    </body>
 
 </html>

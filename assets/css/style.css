@@ -1,95 +1,69 @@
-
-/*background for the whole site - Body*/
-body{
-	background-image: url("../images/background.png");
-	margin: auto;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #777777;
-	font-family: Arial, Helvetica, sans-serif;
-	margin: auto;
+nav{
+	background: #7D7B75;
+	height: 4em;
+	vertical-align: middle;
 }
 
-/*font family just for Header Tages*/
-h1, h2, h3, h4, h5, h6{
-	font-family: Georgia, "Times New Roman", Times, serif;
+.nav-item{
+	font-size: 20px;
+	margin-top: .3em;
 }
 
-h1{
-	float: left;
+ nav a{
+	color: #FCF8ED;
 }
 
-/*highlight my name is green and font colour in white*/
-mark {
-	background-color:#4aaaa5;
-	color: #ffffff;
+nav a:hover {
+	color: #BAB7AF;
   }
 
-/*nav settings*/
-nav{
+.jumbotron {
+	background-color: #E6E1D8;
+	color: #7D7B75;
+}
+
+.jumbotron h1{
+	font-size: 5em;
+}
+
+.jumbotron a{
+	color: #7D7B75;
+}
+
+.jumbotron a:hover{
+	color: #BDB9B1;
+}
+
+.fab{
+	font-size: 3em;
 	float: right;
+	margin-left: 5px;
 }
 
-/*link settings*/
-a{
-	color: #4aaaa5;
-}
-a:hover{
-	text-decoration: none;
-	color: #1C403E;
+body{
+	background-color:#FCF8ED;
 }
 
-/*Top of page name and nave*/
-header{
-	background-color: #ffffff;
-	padding-top: 50px;
-	border-bottom: solid;
-	border-width: 2px;
-	border-color: #cccccc;
-}
-
-/*main part of site*/
-.container{
-	background-color: #ffffff;
-	margin-top: 5px;
-	padding:0px;
-	width: 960px;
-}
-
-/*title of page*/
-.title{
-	color: #4aaaa5;
-}
-
-/* self image on index page settings*/
-#imgself{
-	float: left;
-	padding-right: 10px;
-
-}
-
-.name{
-	background-color: #4aaaa5;
-}
-/*horizontal line*/
-hr{
-	color: 4aaaa5;
-}
-
-/*main part of the page*/
 .main{
-	padding: 20px;
-	border: solid;
-	border-width: 2px;
-	border-color: #dddddd;
+	background-color: #FCF8ED;
 }
 
-/*footer setting*/
+.main h1{
+	margin-bottom: 30px;
+}
+#selfpic{
+	float: left;
+    padding-right: 15px;
+}
+
+.about p{
+	font-size: 20px;
+	color: #7D7B75;
+}
+
 footer{
-	color: #cccccc;
-	background-color: #666666;
-	border-top: solid;
-	border-width: 8px;
-	border-color: #4aaaa5;
+	color: #7D7B75;
+	background-color: #E6E1D8;
 	padding-top:20px;
 	text-align: center;
 	position: fixed;
@@ -98,50 +72,32 @@ footer{
 	width: 100%;
 }
 
-/*contact page, single line of input*/
-.box{
-	width: 100%;
-	outline-color: #dddddd;
-	margin-bottom: 20px;
-}
-
-/*contact page, multiple line of input*/
-#message{
-	width: 100%;
-	height: 200px;
-	outline-color: #dddddd;
-	margin-bottom: 20px;
-}
-
-/*contact page submit button*/
-button{
-	width: 100px;
-	padding:5px;
-	margin:0;
+.projectName h3{
 	text-align: center;
-	background-color: #4aaaa5;
-	color: #ffffff;
 }
 
-/*image on portfolio page*/
-.thumbnail {
-    position: relative;
+.projectImg img {
+	border-style: solid;
+	border-color: #7D7B75;
+	border-width: 2px;
+
 }
 
-/*text over the image on the portfolio page*/
-.caption {
-    position: absolute;
-    top: 60%;
-    left: 9%;
-	width: 300px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	margin: 0;
-	padding: 0;
+.projectImg .col-4 {
+	text-align: center;
 }
 
-/*link settings for the text over the pictures on the portfolio page*/
-.aimg {
-	text-decoration: none;
-	color: #ffffff;
+
+.projectBtn{
+	text-align: center;
+
 }
+
+button{
+	margin: .5em;
+}
+
+.col-4 h5{
+	text-align: right;
+}
+

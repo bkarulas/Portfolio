@@ -1,130 +1,97 @@
 <!DOCTYPE html>
-<html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <!--Meta tage for mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <!--Bootstrap CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--My CSS-->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+<html>
 
-<!--Body-->
-<body>
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-8">
-          <!--Title, my name-->
-          <h1><mark>Brad Karulas</mark></h1>
-        </div>
-        <div class="col-4">
-          <!--Links-->  
-          <nav>
-            <a href="index.html">About</a> | 
-            <a href="portfolio.html">Portfolio</a> | 
-            <a href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </div>
-    </div>    
-  </header>
-
-  <!--Main Content-->
-  <div class="container">
-    <div class="main">
-      <div class="row">
-        <!--Page Title-->
-        <h1 class="title">Portfolio</h1>
-      </div>
-      <hr>
-      <div class="row" id="box-search">
-        <!--HOCKEY-->
-        <div class="col-5">
-          <div class="thumbnail text-center">
-            <!--Leafs Image-->
-            <img src="assets/images/port-leafs.png" alt="Leafs" class="img-responsive">
-            <div class="caption">
-              <p><h3>
-                <!--Link to the Leafs site-->
-                <a class="aimg" href="https://www.nhl.com/mapleleafs/" target="_blank">Hockey</a>
-              </h3></p>
+    <!--Document Information-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brad Karulas</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="display-4">Brad Karulas</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="lead">Full Stack Developer</p>
+                            </div>
+                            <div class="col-4 icons">
+                                <a href="https://github.com/bkarulas" target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a href="https://www.linkedin.com/in/brad-karulas-78992a19/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <div class="container main">
+            <h1>Portfolio</h1>
+            <div class="row projectName">
+                <div class="col-4">
+                    <h3>Code Quiz</h3>
+                </div>
+                <div class="col-4">
+                    <h3>Day Planner</h3>
+                </div>
+                <div class="col-4">
+                    <h3>How Safe is Your Neighbourhood</h3>
+                </div>
             </div>
-          </div>
-        </div>
-        <!--BASKETBALL-->
-        <div class="col-5">
-          <div class="thumbnail text-center">
-            <!--Raptors Image-->
-            <img src="assets/images/port-raptors.jpg" alt="Raps" class="img-responsive">
-            <div class="caption">
-              <p><h3>
-                <!--Link to Raptos site-->
-                  <a class="aimg" href="https://www.nba.com/raptors/" target="_blank">Basketball</a>
-              </h3></p>
+            <div class="row projectImg">
+                <div class="col-4">
+                    <a href="https://github.com/bkarulas/Code-Quiz/blob/master/README.md" target="_blank"><img src="assets/images/CodeQuiz.jpg" alt="code quiz"></a>
+                </div>
+                <div class="col-4">
+                    <a href="https://github.com/bkarulas/Day-Planner/blob/master/README.md" target="_blank"><img src="assets/images/DayPlanner.jpg" alt="day planner"></a>
+                </div>
+                <div class="col-4">
+                    <a href="https://github.com/andydurette/UFT-Project-1/blob/master/README.md" target="_blank"><img src="assets/images/project1.jpg" alt="safty"></a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      </br>
-      <div class="row" id="box-search">
-        <!--BASEBALL-->
-        <div class="col-5">
-          <div class="thumbnail text-center">
-            <!--Jays Image-->
-            <img src="assets/images/port-jays.jpg" alt="Jays" class="img-responsive">
-            <div class="caption">
-              <p><h3>
-                <!--Link to Jays site-->
-                <a class="aimg" href="https://www.mlb.com/bluejays" target="_blank">Baseball</a>
-              </h3></p>
+            <div class="row projectBtn">
+                <div class="col-4">
+                    <a href="https://github.com/bkarulas/Code-Quiz" target="_blank"><button type="button" class="btn btn-dark">GitHub</button></a>
+                    <a href="https://bkarulas.github.io/Code-Quiz/" target="_blank"><button type="button" class="btn btn-dark">Site Link</button></a>
+                    <a href="https://github.com/bkarulas/Code-Quiz/blob/master/README.md" target="_blank"><button type="button" class="btn btn-dark">Read Me</button></a>
+                </div>
+                <div class="col-4">
+                        <a href="https://github.com/bkarulas/Day-Planner" target="_blank"><button type="button" class="btn btn-dark">GitHub</button></a>
+                        <a href="https://bkarulas.github.io/Day-Planner/" target="_blank"><button type="button" class="btn btn-dark">Site Link</button></a>
+                        <a href="https://github.com/bkarulas/Day-Planner/blob/master/README.md" target="_blank"><button type="button" class="btn btn-dark">Read Me</button></a>
+                </div>
+                <div class="col-4">
+                        <a href="https://github.com/andydurette/UFT-Project-1.git" target="_blank"><button type="button" class="btn btn-dark">GitHub</button></a>
+                        <a href="https://andydurette.github.io/UFT-Project-1/" target="_blank"><button type="button" class="btn btn-dark">Site Link</button></a>
+                        <a href="https://github.com/andydurette/UFT-Project-1/blob/master/README.md" target="_blank"><button type="button" class="btn btn-dark">Read Me</button></a>
+                </div>
             </div>
-          </div>
-        </div>
-        <!--SOCCER-->
-          <div class="col-5">
-            <div class="thumbnail text-center">
-              <!--TFC Image-->
-              <img src="assets/images/port-tfc.jpg" alt="TFC" class="img-responsive">
-              <div class="caption">
-                <p><h3>
-                  <!--Link to TFC Site-->
-                  <a class="aimg" href="https://www.torontofc.ca/" target="_blank">Soccer</a>
-                </h3></p>
-              </div>
-            </div>
-          </div>
-      </div>
-      </br>
-      <div class="row" id="box-search">
-        <!--FOOTBALL-->
-        <div class="col-5">
-          <div class="thumbnail text-center">
-            <!--Argos Image-->
-            <img src="assets/images/port-argos.jpg" alt="Argos" class="img-responsive">
-            <div class="caption">
-              <p><h3>
-                <!--Link to Argos Site-->
-                <a class="aimg" href="https://www.argonauts.ca/" target="_blank">Football</a>
-              </h3></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-  </div>
-  
-  <!--The Footer-->
-  <footer>
-    <div class="row">
-      <div class="col-12">
-        Copyright &copy;
-      <div class="col-12">
-    </div>
-  </footer>
-</body>
+        </div> 
+        
+        <footer>
+            Copyright &copy;
+        </footer>
+    </body>
 
 </html>
